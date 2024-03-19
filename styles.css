@@ -1,0 +1,62 @@
+body {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+h1 {
+	margin-bottom: 1.5rem;
+}
+
+.error-msg {
+	color: #ff7777;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 1.25rem;
+	padding: 1.25rem;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+form>div {
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
+}
+
+input {
+	all: unset;
+	background-color: #88888815;
+	padding: 0.5rem;
+	border-bottom: 1px solid #000;
+}
+
+button {
+	all: unset;
+
+	padding: 0.5rem;
+	border-radius: 0.25rem;
+
+	cursor: pointer;
+	background-color: #5555ff4b;
+}
+
+dialog {
+	border: unset;
+	padding: 0;
+}
+
+dialog::backdrop {
+	background-color: #5f5f5f94;
+}
+
+dialog>div {
+	display: flex;
+	padding: 2rem;
+
+	justify-content: center;
+	align-items: center;
+}

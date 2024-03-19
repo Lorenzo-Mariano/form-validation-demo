@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles.css">
+		<script src="handleForm.js" defer></script>
+		<title>ITE 308 | Exam</title>
+	</head>
+
+	<body>
+		<dialog>
+			<div>
+				<h2 class="results"></h2>
+			</div>
+		</dialog>
+
+		<h1>Student Data Form</h1>
+		<form>
+			<span class="error-msg"></span>
+			<div>
+				<label for="username">Username</label>
+				<input type="text" name="username" id="username" placeholder="Username">
+			</div>
+
+			<div>
+				<label for="username">Email</label>
+				<input type="email" name="email" id="email" placeholder="Email">
+			</div>
+
+			<div>
+				<label for="username">Password</label>
+				<input type="password" name="password" id="password" placeholder="Password">
+			</div>
+
+			<div>
+				<label for="username">Grade</label>
+				<input type="number" name="grade" id="grade" min="0" max="100" placeholder="Grade (Numbers only)">
+			</div>
+
+			<section>
+				<button type="reset">Reset</button>
+				<button type="submit" onclick="submitForm(event)">Submit</button>
+			</section>
+		</form>
+	</body>
+
+</html>
